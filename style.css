@@ -131,7 +131,18 @@ ul {
 }
 
 #headshot {
-  width: 25rem;
+  width: auto;
+  height: 100%;
+  margin-left: -70px;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 
