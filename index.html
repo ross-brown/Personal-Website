@@ -14,22 +14,56 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
   <header>
-    <nav>
-      <span id="header-name">Ross Brown <i class="fa-2xs fa-solid fa-code"></i></span>
+    <!-- <nav>
+      <div class="logo-hamb">
+        <span id="header-name">Ross Brown <i class="fa-2xs fa-solid fa-code"></i></span>
+      </div>
       <ul id="nav-links">
         <li><a class="nav-link" href="#hero">Home</a></li>
         <li><a class="nav-link" href="#about">About</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
         <li><a class="nav-social nav-link" href="https://github.com/ross-brown" target="_blank"><i
-              class="fa-lg fa-brands fa-github"></i></a></li>
-        <li><a class="nav-social nav-link" href="https://www.linkedin.com/in/ross-brown-/" target="_blank"><i
-              class="fa-lg fa-brands fa-linkedin"></i></a></li>
+          class="fa-lg fa-brands fa-github"></i></a></li>
+          <li><a class="nav-social nav-link" href="https://www.linkedin.com/in/ross-brown-/" target="_blank"><i
+            class="fa-lg fa-brands fa-linkedin"></i></a></li>
       </ul>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ross Brown <i class="fa-2xs fa-solid fa-code"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ross Brown</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li><a class="nav-social nav-link" href="https://github.com/ross-brown" target="_blank"><i
+                class="fa-xl fa-brands fa-github"></i></a></li>
+                <li><a class="nav-social nav-link" href="https://www.linkedin.com/in/ross-brown-/" target="_blank"><i
+                  class="fa-xl fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
     <div id="hero">
       <div id="hero-text">
@@ -82,6 +116,9 @@
   <footer>
     <span>&copy; 2023 Ross Brown</span>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

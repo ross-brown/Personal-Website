@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   margin: 0;
   background-color: rgb(250, 250, 250);
   color: rgb(36, 38, 42);
@@ -92,6 +92,43 @@ ul {
   align-items: flex-end;
   /* border: 1px solid red; */
 }
+
+.hamb-icon {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+.hamb-icon input[type="checkbox"] {
+  appearance: none;
+}
+
+@media screen and (max-width: 880px) {
+  #nav-links {
+    height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .logo-hamb {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamb-icon {
+    display: block;
+
+  }
+}
+
+.fa-x {
+  display: none;
+}
+
+
+
 
 /* HERO */
 
