@@ -6,6 +6,9 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  background-color: rgb(250, 250, 250);
+  color: rgb(36, 38, 42);
+  text-align: left;
 }
 
 
@@ -14,8 +17,10 @@ header {
   flex-direction: column;
 }
 
+/* NAV BAR */
+
 #header-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
 }
 
@@ -69,11 +74,25 @@ nav li {
   opacity: 1;
 }
 
+.nav-social:hover::after {
+  width: 0%;
+}
+
+.fa-linkedin {
+  transition: 300ms;
+}
+
+.fa-linkedin:hover {
+  color: #0072b1;
+}
+
 ul {
   display: flex;
   align-items: flex-end;
   /* border: 1px solid red; */
 }
+
+/* HERO */
 
 #hero {
   display: flex;
@@ -91,7 +110,7 @@ ul {
   margin-left: 6rem;
 }
 
-#hero-intro {
+#hero-title {
   font-size: 1.75rem;
 }
 
@@ -100,7 +119,70 @@ ul {
 }
 
 
+/* ABOUT SECTION */
+
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
 #headshot {
-  width: 25%;
-  border-radius: 50%;
+  width: 25rem;
+}
+
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  width: 60%;
+  line-height: 1.7rem;
+  margin: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#bio-intro {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 200
+}
+
+#resume {
+  color:rgb(36, 38, 42);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.75rem;
+}
+
+
+/* CONTACT INFO */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#contact-icons i.fa-linkedin{
+  color: black;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #24262a;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
 }
