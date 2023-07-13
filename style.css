@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+#header-name {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  /* border: 1px solid red; */
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0 50px;
+  /* border: 1px solid red; */
+}
+
+.nav-link {
+  /* transition: 300ms; */
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+}
+
+#hero {
+  display: flex;
+  height: 100vh;
+  background-image: url(/assets/hero_photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#hero-text {
+  margin-bottom: 6rem;
+  margin-left: 6rem;
+}
+
+#hero-name {
+  font-size: 4rem;
+}
+
+
+#headshot {
+  width: 25%;
+  border-radius: 100%;
+}
