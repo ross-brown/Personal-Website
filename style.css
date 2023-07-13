@@ -170,8 +170,12 @@ ul {
   background-color: rgb(240, 240, 240);
 }
 
-#contact-icons i.fa-linkedin{
+#contact-icons i {
+  position: relative;
   color: black;
+  margin: 0.5rem;
+  font-size: 3rem;
+  left: 8px;
 }
 
 
