@@ -34,6 +34,7 @@ nav {
   width: 100%;
   background-color: white;
   opacity: 0.9;
+  z-index: 1;
   /* border: 1px solid red; */
 }
 
@@ -130,6 +131,10 @@ ul {
   padding: 1.5rem;
 }
 
+div#about h1 {
+  font-size: 3rem;
+}
+
 #headshot {
   width: auto;
   height: 100%;
@@ -179,6 +184,12 @@ ul {
   text-align: center;
   padding: 2rem;
   background-color: rgb(240, 240, 240);
+}
+
+div#contact p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 #contact-icons i {
