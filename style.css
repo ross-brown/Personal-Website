@@ -49,6 +49,7 @@ nav li {
   color: black;
   font-size: 1.2rem;
   opacity: 0.75;
+  font-weight: 200;
 }
 
 .nav-link::after {
@@ -90,6 +91,10 @@ ul {
   margin-left: 6rem;
 }
 
+#hero-intro {
+  font-size: 1.75rem;
+}
+
 #hero-name {
   font-size: 4rem;
 }
@@ -97,5 +102,5 @@ ul {
 
 #headshot {
   width: 25%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
