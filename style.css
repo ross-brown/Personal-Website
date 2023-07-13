@@ -19,11 +19,6 @@ header {
 
 /* NAV BAR */
 
-#header-name {
-  font-size: 1.5rem;
-  margin-left: 1rem;
-}
-
 nav {
   display: flex;
   align-items: center;
