@@ -12,4 +12,4 @@ HTML, CSS, Bootstrap
 
 ## Lessons Learned
 
-This was a great refresher on HTML and CSS by builing a website completely from scratch. The most challenging aspect of this project was messing the CSS to make the layout look presentable. Re-learning things like media queires helped create a more responsive website.
+This was a great refresher on HTML and CSS by building a website completely from scratch. The most challenging aspect of this project was messing the CSS to make the layout look presentable, especially on mobile devices. Re-learning things like media queires helped create a more responsive website.
