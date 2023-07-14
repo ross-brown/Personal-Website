@@ -139,7 +139,7 @@ ul {
 }
 
 #hero-text {
-  margin-bottom: 20rem;
+  margin-bottom: 2rem;
   margin-left: 6rem;
 }
 
@@ -151,6 +151,26 @@ ul {
   font-size: 4rem;
 }
 
+.headshot-container {
+  position: relative;
+  top: 10px;
+  margin-top: 5rem;
+}
+
+#headshot {
+  width: auto;
+  height: 100%;
+  margin-left: -100px;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
 /* ABOUT SECTION */
 
@@ -166,22 +186,6 @@ ul {
 div#about h1 {
   font-size: 3rem;
 }
-
-#headshot {
-  width: auto;
-  height: 100%;
-  margin-left: -70px;
-}
-
-.circle {
-  display: inline-block;
-  position: relative;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
 
 #bio {
   display: flex;
@@ -228,7 +232,6 @@ div#contact p {
   position: relative;
   margin: 0.5rem;
   font-size: 3rem;
-  left: 8px;
 }
 
 #contact-icons i.fa-linkedin {
