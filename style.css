@@ -130,7 +130,7 @@ ul {
 #hero {
   display: flex;
   height: 100vh;
-  background-image: url(/assets/hero_photo.jpg);
+  background-image: url(./assets/hero_photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
