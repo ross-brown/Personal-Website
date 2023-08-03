@@ -249,6 +249,13 @@ div#about h1 {
   }
 }
 
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+}
+
 
 /* CONTACT INFO */
 
