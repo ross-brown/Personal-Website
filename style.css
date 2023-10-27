@@ -44,13 +44,7 @@ nav li {
 }
 
 .nav-link {
-  display: inline-block;
-  transition: 300ms;
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
   opacity: 0.75;
-  font-weight: 200;
 }
 
 .nav-link::after {
@@ -212,7 +206,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: 3rem;
   margin: 0 auto;
 }
 
@@ -243,11 +237,43 @@ div#about h1 {
   font-size: 1.75rem;
 }
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 75%;
+  margin: 1rem;
+}
+
+.skill img {
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.skill h6 {
+  text-align: center;
+}
+
 @media screen and (max-width: 1000px) {
   #bio {
     width: 90%;
   }
+
+  .skill img {
+    height: 75px;
+  }
 }
+
+/* PROJECTS */
 
 #projects {
   display: flex;
