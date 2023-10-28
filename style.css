@@ -170,10 +170,10 @@ ul {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .circle {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 
   .headshot-container {
@@ -181,7 +181,7 @@ ul {
   }
 
   #headshot {
-    margin-left: -50px;
+    margin-left: -60px;
   }
 
   #hero-name {
@@ -193,8 +193,12 @@ ul {
   }
 
   #hero-text {
-    margin-top: 5rem;
-    margin-left: 3rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #hero {
+    justify-content: center;
   }
 }
 
