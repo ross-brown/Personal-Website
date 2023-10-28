@@ -16,6 +16,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -39,6 +40,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -68,31 +72,44 @@
     </div>
   </header>
   <main>
-    <div id="about">
-      <h2>About Me</h2>
-      <div id="bio">
-        <p id="bio-intro">I'm a full-stack software engineer with a background as a classicaly trained musicain.</p>
-        <p>
-          Before discovering my interest in code, I freelanced as a trumpet player in the DFW and Austin area
-          as well as taught private lessons to high school and middle school students. I enjoyed playing
-          a variety of music as well as writing and arranging music on the side as well. As I was finishing my
-          master's
-          degree at Southern Methodist University in Dallas, TX, I began to question whether the life of a musician was
-          what I
-          wanted to do. I stumbled upon a site called "codecademy.com" and gave learning to program a shot, and
-          the rest is history. Being able to experience the thrill of learning something new for the first was exciting
-          and kept me wanting to learn more and more. As I continue to learn and build with code, I hope to one day to
-          work on interesting and exciting projects that significantly impact people's lives and maybe even involve
-          music!
-          <br>
-          <br>
-          Currently, I am enrolled in a 16-week, full-stack engineering program at Rithm School. I hope to gain valuable
-          experience, meet new people, and build awesome projects as I get closer and closer to my goal of becoming a
-          software engineer.
-        </p>
+    <div id="about" class="container">
+      <div class="about">
+        <div class="row my-5">
+          <div class="col-md-5 self-image img-fluid d-none d-md-block">
+            <img id="colorado-pic" src="./assets/colorado-pic.JPG" alt="colorado trip picture" />
+          </div>
+          <div id="bio" class="col-md-7 my-auto pe-5">
+            <h2></h2>
+            <p id="bio-intro">I'm a full-stack software engineer with a background as a classicaly trained musicain.</p>
+            <p>
+              Before discovering my interest in code, I freelanced as a trumpet player in the DFW and Austin area
+              as well as taught private lessons to high school and middle school students. I enjoyed playing
+              a variety of music as well as writing and arranging music on the side as well. As I was finishing my
+              master's
+              degree at Southern Methodist University in Dallas, TX, I began to question whether the life of a musician
+              was
+              what I
+              wanted to do. I stumbled upon a site called "codecademy.com" and gave learning to program a shot, and
+              the rest is history. Being able to experience the thrill of learning something new for the first was
+              exciting
+              and kept me wanting to learn more and more. As I continue to learn and build with code, I hope to one day
+              to
+              work on interesting and exciting projects that significantly impact people's lives and maybe even involve
+              music!
+              <br>
+              <br>
+              Currently, I am enrolled in a 16-week, full-stack engineering program at Rithm School. I hope to gain
+              valuable
+              experience, meet new people, and build awesome projects as I get closer and closer to my goal of becoming
+              a
+              software engineer.
+            </p>
+            <a id="resume" href="./assets/Ross_Brown_WIP_Resume.pdf" target="_blank" class="nav-link">
+              <i class="bi bi-file-earmark-person"></i> Resume</a>
+          </div>
+        </div>
       </div>
-      <a id="resume" href="./assets/Ross_Brown_WIP_Resume.pdf" target="_blank" class="nav-link"><i class=" fa-regular fa-regular fa-file"></i> Resume</a>
-      <div id="skills">
+      <div id="skills" class="container">
         <h2>Skills</h2>
         <div class="skills-container">
           <div class="skill">
@@ -189,6 +206,9 @@
   <footer>
     <span>&copy; 2023 Ross Brown</span>
   </footer>
+  <a href="#" class=" back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <script src="./script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
