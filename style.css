@@ -339,7 +339,7 @@ div#about h2 {
   border: 1px solid #555;
 }
 
-.card img {
+.carousel-item img {
   border-radius: 5px 5px 0 0;
 }
 
