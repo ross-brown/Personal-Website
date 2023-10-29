@@ -233,8 +233,8 @@ ul {
   flex-direction: row !important;
 }
 
-div#about h1 {
-  font-size: 3rem;
+div#about h2 {
+  place-self: center;
 }
 
 #bio {
@@ -322,6 +322,26 @@ div#about h1 {
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
+}
+
+.projects-container {
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project {
+  display: flex;
+}
+
+.project-skill {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.project-skill img {
+  height: 3.5rem;
 }
 
 
