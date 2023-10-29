@@ -334,6 +334,10 @@ div#about h2 {
   display: flex;
 }
 
+.card {
+  width: 30rem;
+}
+
 .project-skill {
   display: flex;
   justify-content: space-evenly;
@@ -342,6 +346,22 @@ div#about h2 {
 
 .project-skill img {
   height: 3.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 20rem;
+  }
+
+  .project-skill img {
+    height: 1.8rem;
+  }
+
+  .card-body a {
+    font-size: 0.7rem;
+    width: 6rem;
+    margin: 0.2rem
+  }
 }
 
 
