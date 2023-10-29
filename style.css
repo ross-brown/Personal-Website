@@ -334,8 +334,13 @@ div#about h2 {
   display: flex;
 }
 
-.card {
+.project .card {
   width: 30rem;
+  border: 1px solid #555;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
 }
 
 .project-skill {
@@ -349,7 +354,7 @@ div#about h2 {
 }
 
 @media screen and (max-width: 1000px) {
-  .card {
+  .project .card {
     width: 20rem;
   }
 
@@ -384,8 +389,8 @@ div#contact p {
 
 #contact-icons i {
   position: relative;
-  margin: 0.5rem;
-  font-size: 3rem;
+  margin: 0.5rem 2rem;
+  font-size: 3.5rem;
 }
 
 #contact-icons i.fa-linkedin {
