@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", "Poppins", "Roboto", sans-serif;
 }
 
 body {
@@ -112,7 +112,6 @@ ul {
   }
 
   #hero {
-    padding-top: 5rem;
     justify-content: center;
   }
 }
@@ -164,10 +163,14 @@ ul {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
   margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #hero-title {
   font-size: 1.75rem;
+  padding-bottom: 1rem;
 }
 
 #hero-name {
@@ -175,10 +178,14 @@ ul {
   font-weight: 600;
 }
 
+.hero-button {
+  font-size: 1.75rem !important;
+}
+
 .headshot-container {
   position: relative;
   top: 10px;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 #headshot {
@@ -226,6 +233,10 @@ ul {
   #hero {
     padding-top: 5rem;
     justify-content: center;
+  }
+
+  .hero-button {
+    font-size: 1.2rem !important;
   }
 }
 
@@ -279,7 +290,7 @@ div#about h2 {
   cursor: pointer;
   font-size: 1.75rem;
   text-align: center;
-  width: 9rem;
+  width: 9.5rem;
   place-self: center;
 }
 
