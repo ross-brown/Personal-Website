@@ -1,3 +1,12 @@
+/*TODO: POLISH IT MORE
+  doesn't love the laptop background
+    - dont have it
+    - center yourself and details right there with about or move about me up there
+  icon for resume is too big
+    */
+
+
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -148,23 +157,18 @@ ul {
   display: flex;
   height: 100vmin;
   width: 100vw;
-  background-image: url(./assets/hero_photo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* padding: 10px; */
   margin-bottom: 1rem;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(250,250,250,.5);
+  background-color: rgb(240, 240, 240);
 }
 
 #hero-text {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
-  margin-left: 6rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -288,9 +292,9 @@ div#about h2 {
   color:rgb(36, 38, 42);
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   text-align: center;
-  width: 9.5rem;
+  width: 7.6rem;
   place-self: center;
 }
 
