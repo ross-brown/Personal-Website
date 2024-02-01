@@ -355,7 +355,7 @@ div#about h2 {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .circle {
     width: 150px;
     height: 150px;
